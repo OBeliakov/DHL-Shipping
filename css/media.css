@@ -1,0 +1,703 @@
+@media(max-width:1366px){
+    .main-menu, .header-menu{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    footer{
+        height: 222px;
+    }
+    .footer-info{
+        padding-top: 15px;
+        width: 50%;
+    }
+}
+@media(max-width:1200px){
+    .header-menu{
+        max-width: 750px;
+    }
+    .header-menu a:nth-child(2) {
+        margin-left: 61%;
+    }
+    .main-menu{
+        max-width: 750px;
+    }
+    .menu-panel{
+        margin-left:2%;
+    }
+    .menu-panel a{
+        margin-left: 20px!important;
+        font-size:9pt;
+    }
+    .main-menu a {
+        font-size: 9pt;
+    }
+    .main-menu .search {
+        width: 40px;
+        height: 40px;
+        margin-left: 49px;
+        margin-top: 0px;
+    }
+    .services{
+        max-width: 750px;
+    }
+    .services h1{
+        font-size: 146px;
+    }
+    .services h2{
+        font-size: 46px;
+    }
+    .services_block-service:not(:last-child) {
+        width: 100%;
+        max-width: 134px;
+    }
+    .services_block-service img{
+        width:100%;
+    }
+    .services_block-service p {
+        font-size: 14px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+    .services_block-service h3{
+        font-size: 18px;
+    }
+    .services_block-service:last-child form {
+        margin-left: 26px;
+        margin-top: 20px;
+    }
+    .services_block-service:last-child {
+        background: #ba0000;
+        height: 309px;
+    }
+    .services_block-service:last-child form button{
+        margin-top:25px;
+    }
+    .services_block-service p:nth-of-type(2) {
+        margin-top: 15px;
+        padding-left: 15px;
+    }
+    .services_block-service p:nth-of-type(2)::after {
+        content: "";
+        
+        top: 5px;
+        right: 123px;
+    }
+    .aboutcompany .slides{
+        max-width: 750px;
+        margin-top: -136px;
+    }
+    .aboutcompany .slides img{
+        width:100%;
+    }
+    .aboutcompany .slides h3 {
+        font-size: 17px;
+    }
+    .aboutcompany .slides p {
+        font-size: 13px;
+    }
+    .slides .Aerospace,.slides .Poppins,.slides .Airline{
+        width:34%;
+        height:330px;
+    }
+    .logistics {
+        
+        max-width: 750px;
+    }
+    .logistics form {
+        width: 285px;
+        height: 439px;
+    }
+    .logistics form .tab-pane select {
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 207px;
+        font-size: 14px;
+    }
+    .logistics img{
+            vertical-align: middle;
+            border-style: none;
+            height: 50%;
+            width: 50%;
+    }
+    .logistics form #Logistics {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .logistics form #Express{
+        padding-top:0px;
+    }
+    .features {
+        max-width: 750px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px
+    }
+    .features span {
+        display: inline-block;
+        /* float: right; */
+        margin-top: 36px;
+    }
+    .ourclients{
+        max-width: 750px;
+    }
+    .ourclients a img {
+        width: 100%;
+    }
+    footer div:nth-child(2) {
+        margin-left: 90px;
+    }
+    .footer-info {
+        padding-top: 0px;
+        width: 50%;
+        height: 244px;
+    }
+    .footer-info h2{
+        font-size:17px;
+    }
+    footer .footer-info p a{
+        font-size: 12px;
+    }
+}
+@media(max-width:992px){
+    .fullscreen-bg__video {
+        top: -77px;
+    }
+    .aboutcompany .slides{
+        margin-top: 40px;
+    }
+    .slidecontainer p {
+        font-size: 17px;
+        padding-right: 128px;
+    }
+    .slidecontainer p span {
+        font-size:17px;
+    }
+    .slidecontainer h1 {
+        font-size: 50pt;
+    }
+    .footer-info p, .footer-info h2{
+        display: none;
+    }
+    .btn-secondary{
+        color: #ba0000!important;
+        font-family: "Poppins" , sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        background:none!important;
+        border-style:none;
+    }
+    footer div{
+        margin-left:0px!important;
+    }
+    footer .dropdown-item{
+        width: 215px;
+        color: #777777;
+        font-family: "Poppins" , sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .footer-info {
+        margin-top: 143px;
+        width: 50%;
+        height: 112px;
+    }
+    .footer-info .dropdown {
+        height: 100px;
+    }
+    footer .dropdown.show{
+		display: block;
+    }
+    footer {
+        height: 255px;
+    }
+}
+@media(max-width:768px){
+    .footer-info{
+        flex-direction: column;
+        align-items: center;
+        padding-top:10px;
+    }
+    .footer-info .dropdown {
+        height: 30px;
+    }
+    .slidecontainer p {
+        font-size: 17px;
+        padding-right: 236px;
+    }
+    .header-menu {
+        max-width: 720px;
+    }
+    .header-menu a:nth-child(2) {
+        margin-left: 39%;
+    }
+    .header-menu a:nth-child(3) {
+        margin-left: 22%;
+    }
+    .menu-panel a {
+        margin-left: 16px!important;
+    }
+    .main-menu {
+        max-width: 720px;
+        padding-top: 25px;
+        height: 90px;
+    }
+    
+    .navigation{
+        top: 20px;
+        z-index: 1;
+    }
+    .services {
+        max-width: 720px;
+    }
+    .aboutcompany {
+        background: url(../images/overlay.png) no-repeat;
+        background-size: contain;
+    }
+    .aboutcompany .fullscreen-bg__video, .aboutcompany button{
+        display: none;
+    }
+    .aboutcompany .slides {
+        margin-top: -53px;
+        max-width: 720px;
+    }
+    .slides .Aerospace, .slides .Poppins, .slides .Airline {
+        width: 31%;
+    }
+    .aboutcompany .slides {
+        margin-top: -77px;
+    }
+    .aboutcompany .slides p {
+        font-size: 11px;
+    }
+    .aboutcompany .slides p::before {
+        top: 1px;
+    }
+    .logistics {
+        max-width: 720px;
+    }
+    .features {
+        max-width: 720px;
+    }
+    .features p {
+        width: 100%;
+    }
+    .ourclients {
+        max-width: 720px;
+    }
+    .ourclients a {
+        width: 170px;
+        padding:45px 14px;
+    }
+    footer {
+        margin-top: 80px;
+        height: 123px;
+        position: relative;
+    }
+    .footer-info{
+        position: absolute;
+        bottom:0px;
+        left: 25%;
+    }
+    
+}
+@media(max-width:720px){
+    .header-menu {
+        max-width: 576px;
+        display: none;
+    }
+    #topNav, #main{
+        display: block;
+    }
+    .main-menu .search{
+        margin-left: 122px;
+        margin-right: 9px;
+    }
+    .menu-panel a{
+        display: none;
+    }
+    .services {
+        max-width: 576px;
+    }
+    .services h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .services h1{
+        display:none;
+    }
+    .services_block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .services_block-service{
+        margin-left:0px!important;
+    }
+    .services_block-service:not(:last-child) {
+        width: 100%;
+        max-width: 278px;
+    }
+    .aboutcompany .slides {
+        max-width: 576px;
+    }
+    .logistics {
+        max-width: 576px;
+    }
+    .logistics img{
+        display: none;
+    }
+    .logistics form {
+        width:100%;
+        max-width: 576px;
+    }
+    .logistics form .tab-pane select {
+        width: 500px;
+    }
+    .logistics form .nav .nav-item {
+        width: 288px;
+    }
+    .features {
+        max-width: 576px;
+    }
+    .ourclients {
+        max-width: 576px;
+    }
+}
+@media(max-width:576px){
+    .main-menu .search {
+        margin-left: 60px;
+    }
+    .main-menu {
+        max-width: 480px;
+    }
+   #closebtn{
+        left: 70px;  
+   }
+   .slidecontainer {
+    padding-left: 12%;
+    padding-top: 100px;
+    height: 683px!important;
+}
+.slidecontainer p {
+    padding-right: 332px;
+}
+.carousel-control-next span {
+    right: 18%;
+    position: absolute;
+}
+.carousel-control-prev span {
+    left: 18%;
+    position: absolute;
+}
+.services {
+    max-width: 480px;
+}
+.aboutcompany .slides {
+    max-width: 480px;
+}
+.logistics {
+    max-width: 480px;
+}
+.logistics form .nav .nav-item {
+    width: 100%;
+    max-width: 240px;
+}
+.logistics form .tab-pane select {
+    width: 402px;
+}
+.features {
+    max-width: 480px;
+}
+.features p{
+    font-size:12px;
+}
+.ourclients {
+    max-width: 480px;
+}
+.slidecontainer h1{
+    width: 100%;
+}
+.features {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.features p{
+    margin-top: 20px;
+}
+.features h2 {
+    width: 100%;
+    line-height: 40px;
+}
+.ouradvantages span {
+    font-size: 17px;
+}
+.ouradvantages span:not(:last-of-type)::after {
+    content: ".";
+    top: -10px;
+}
+}
+@media(max-width:480px){
+    .main-menu {
+        max-width: 320px;
+    }
+    .slidecontainer{
+        height:644px!important;
+        padding-top:70px;
+    }
+    .slidecontainer h1 {
+        font-size: 36pt;
+        max-width: 320px;
+    }
+    .slidecontainer p {
+        padding-right: 0px;
+        width:320px;
+        font-size: 14px;
+    }
+    .slidecontainer p span {
+        font-size: 14px;
+    }
+    .ouradvantages {
+        width: 320px;
+        padding-left: 0px;
+    }
+    .ouradvantages span {
+        font-size: 12px;
+    }
+    .ouradvantages span:first-child{
+        margin-left:10px;
+    }
+    .ouradvantages button:first-child {
+        width: 100%;
+    }
+    .ouradvantages button:nth-child(2) {
+        width: 100%;
+        margin-left: 0px;
+        margin-top:30px;
+    }
+    .logo{
+        width:90px;
+        margin-top:5px;
+    }
+    .logo img{
+        width:100%;
+    }
+    #closebtn {
+        left: 102px;
+    }
+    .main-menu .search {
+        margin-left: 29px;
+    }
+    .slidecontainer {
+        padding-left: 16.5%;
+    }
+    .slidecontainer p span {
+        font-size: 14px;
+    }
+    .slidecontainer p span {
+        font-size: 14px;
+    }
+    .ouradvantages span:not(:last-of-type)::after {
+        content: ".";
+        top: -15px;
+    }
+    .services {
+        padding-top: 80px;
+        max-width: 320px;
+        padding-bottom: 0px;
+    }
+    .services h2 {
+        font-size: 30px;
+    }
+    .services_block {
+        display: flex;
+        margin-top: 30px;
+    }
+    .services_block-service {
+        margin-top: 30px;
+    }
+    .services_block-service {
+        width: 100%;
+        max-width: 290px;
+    }
+    .services_block-service h3 {
+        font-size: 14px;
+    }
+    .services_block-service p {
+        font-size: 12px;
+    }
+    .services_block-service p:nth-of-type(2) {
+        margin-top: 10px;
+        padding-left: 0px;
+    }
+    .services_block-service p:nth-of-type(2)::after {
+        content: "";
+        right: 195px;
+    }
+    .fullscreen-bg {
+        padding-top: 27%;
+    }
+    .aboutcompany {
+        background: none;
+        background-color: #fff;
+        background-size: contain;
+    }
+    .aboutcompany .slides {
+        max-width: 320px;
+        flex-direction: column;
+    }
+    .slides .Aerospace, .slides .Poppins, .slides .Airline {
+        width: 100%;
+        height: 364px;
+        margin-top: 30px;
+    }
+    .logistics form .nav .nav-item {
+        width: 100%;
+        max-width: 320px;
+    }
+    .logistics {
+        max-width: 320px;
+    }
+    .logistics form .tab-pane select {
+        width: 240px;
+    }
+    .features {
+        max-width: 320px;
+        height:390px;
+    }
+    .features button{
+        margin-top:25px;
+    }
+    .ourclients {
+        max-width: 320px;
+        padding-top: 50px;
+    }
+    .ourclients a img:nth-child(2){
+		display:block;
+    }
+    .ourclients a img:first-child{
+		display:none;
+    }
+    .ourclients a:nth-child(2) img{
+		margin-top:-3px;
+    }
+    .ourclients a:first-child img{
+		margin-top:2px;
+    }
+    .ourclients a,.ourclients a:hover{
+        border-style:none;
+    }
+    footer{
+        background: #ffcc00;
+    }
+    footer {
+        margin-top: 50px;
+        height: 123px;
+        position: relative;
+    }
+    
+    
+}
+@media(max-width:411px){
+    /* .main-menu .search {
+        margin-left: 4px;
+    } */
+    #closebtn {
+        left: 16%;
+    }
+    .slidecontainer p{
+        display: none;
+    }
+    .ouradvantages p{
+        display: block;
+    }
+    .slidecontainer {
+        padding-left: 11.5%;
+        height: 478px!important;
+    }
+}
+@media(max-width:375px){
+    /* .main-menu .search {
+        margin-left: 4px;
+    } */
+    #closebtn {
+        left: 12%;
+    }
+    .slidecontainer{
+        padding-left: 0px;
+    }
+    .slidecontainer h1 {
+        margin:0 auto;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .ouradvantages {
+        width: 320px;
+        padding-left: 0px;
+        margin: 20px auto;
+    }
+}
+@media(max-width:320px){
+    /* .main-menu .search {
+        margin-left: 4px;
+    } */
+    #closebtn {
+        left: 5%;
+    }
+    
+    section:not(.slider){
+        max-width: 280px!important;
+        margin:0 auto;
+    }
+    header section.main-menu{
+        max-width: 320px!important;
+    }
+    .slidecontainer h1 {
+        font-size: 32pt;
+        max-width: 280px;
+    }
+    .logistics {
+        padding-top: 80px;
+    }
+    .logistics form .tab-pane select {
+        width: 200px;
+        font-size: 12px;
+    }
+    .ouradvantages{
+        width:100%;
+        max-width: 280px;
+    }
+    .slidecontainer p{
+        width:100%;
+        max-width: 280px;
+    }
+    .features h2 {
+        font-size: 28px;
+    }    
+    .features p {
+        font-size: 10px;
+    }
+    .ourclients{
+        padding-top: 0px;
+    }
+    .ouradvantages span:first-child {
+        margin-left: 0px;
+    }
+    .ouradvantages span{
+        font-size:10px;
+    }
+    .carousel-control-next span {
+        right: 0%;
+    }
+    .carousel-control-prev span {
+        left: 0%;
+    }
+    footer {
+        margin-top: 0px;
+    }
+}
